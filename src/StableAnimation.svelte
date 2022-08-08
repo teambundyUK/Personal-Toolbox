@@ -1,15 +1,12 @@
 <script>
 	import Copy from "./Copy.svelte";
 
-	let seed = 3980591359;
-	let inputPrompt = "A %$% year old tree, fantasy painting, lots of detail";
-	let steps = 100;
+	let prompt, disabled, progressFinished;
+	let totalFrames = 100;
+	let steps = 50;
+	let seed = 1;
+	let inputPrompt = "%$%";
 	let number = 1;
-	let prompt;
-	let totalFrames = 10;
-	let finished = false;
-	let disabled;
-	let progressFinished;
 
 	buildPrompt();
 

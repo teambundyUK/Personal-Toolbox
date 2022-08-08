@@ -1,6 +1,6 @@
 <script>
 	let players = [];
-	let teams = ["Red", "Blue"];
+	let teams = ["Green", "Blue"];
 	let teamSize = 2;
 
 	let teamPlayers = [];
