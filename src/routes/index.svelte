@@ -1,6 +1,7 @@
 <script>
 	import StableAnimation from "./StableAnimation.svelte";
 	import GunRandomTeams from "./GunRandomTeams.svelte";
+	import PromptBuilder from "./PromptBuilder.svelte";
 </script>
 
 <main>
@@ -14,6 +15,11 @@
 			<div class="col">
 				<div class="tool">
 					<GunRandomTeams />
+				</div>
+			</div>
+			<div class="col">
+				<div class="tool">
+					<PromptBuilder />
 				</div>
 			</div>
 		</div>
