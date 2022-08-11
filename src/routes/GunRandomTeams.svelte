@@ -91,7 +91,9 @@
 			</tbody>
 		</table>
 		<button on:click={newName} class="btn btn-primary"
-			><strong>+</strong></button
+			><strong><span class="material-symbols-rounded">
+				add
+				</span></strong></button
 		>
         <button class="btn btn-success" style="margin-top: 20px;" on:click={() => teamPlayers = randomTeams()}>Create Teams</button>
         <div class="card" style="width: 18rem; padding: 10px;">
